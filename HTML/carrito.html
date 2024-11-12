@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu carrito</title>
+    <link rel="icon" href="../IMAGES/60992.png" type="png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carousel.css">
+    <link rel="stylesheet" href="../css/boton.css">
+    <link rel="stylesheet" href="../CSS/carrito.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <script defer src="../JS/carrito.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">Menú
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+                <img src="../images/logo vino tonos neutros restaurante (1).png" alt="" class="logo">
+            </a>
+            <ul>
+                <li><a href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/index.html">Catálogo</a></li>
+                <li><a href="../HTML/index.html">Enoturismo</a></li>
+                <li><a href="../HTML/index.html">Reservaciones</a></li>
+                <li><a href="../HTML/index.html">Contacto</a></li>
+                <li><a href="../HTML/carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="productos-left">
+            <h2 class="titulo-catalogo">Catálogo de Productos</h2>
+          
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-CR.jpg" alt="Rové">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Rové</h3>
+                    <p>Cabernet Sauvignon / Syrah</p>
+                    <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Rové" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-CS-SY.jpg" alt="Solare">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Solare</h3>
+                    <p>Cabernet Sauvignon</p>
+                    <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Solare" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-CS.jpg" alt="Munetz">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Munetz</h3>
+                <p>Carménère</p>
+                <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Munetz" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-MT.jpg" alt="Roset">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Roset</h3>
+                <p>Syrah
+
+                </p>
+                <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Roset" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-SB.jpg" alt="Dilvarez">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Dilvarez</h3>
+                <p>Merlot
+
+                </p>
+                <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Dilvarez" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-SY.jpg" alt="Jiulus">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Jiulus</h3>
+                <p>Sauvignon Blanc / Viognier</p>
+                <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Jiulus" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-CR.jpg" alt="Sabrez">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Sabrez</h3>
+                <p>Cabernet Sauvignon</p>
+                <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Sabrez" data-precio="1299.00">+</button>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="imagen">
+                    <img src="../IMAGES/devocion_GR-CS-SY.jpg" alt="Endares">
+                </div>
+                <div class="contenido">
+                    <h3>Vino Endares</h3>
+                    <p>Viognier</p>
+                    <span class="precio">$1,299.00</span>
+                    <button class="agregar-carrito" data-nombre="Endares" data-precio="1299.00">+</button>
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- Columna derecha: Carrito de compras -->
+        <div class="carrito-right">
+            <h2>Mi Carrito</h2>
+            <div id="productos-carrito"></div>
+            <p id="total">Total: $0.00</p>
+            <button id="proceder-compra">Proceder a la compra</button>
+        </div>
+    </div>
+
+    <script src="../JS/carrito.js"></script>
+</body>
+</html>
